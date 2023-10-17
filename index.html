@@ -3,21 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="" href="" />
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
   </head>
   <body>
-    <section>
-      <nav>
+    <section class="container">
+      <nav class="navbar">
         <ul>
-          <li class="list"><a href="">Conceptos básicos de HTML</a></li>
-          <li class="list"><a href="">Home</a></li>
-          <li class="list"><a href="">Home</a></li>
-          <li class="list"><a href="">Home</a></li>
+          <li class="list"><a href="#title">Conceptos básicos de HTML</a></li>
+          <li class="list"><a href="#title-css">CSS</a></li>
+          <li class="list"><a href="#title-java">JavaScript</a></li>
+          <li class="list"><a href="#title-back">Back-end</a></li>
         </ul>
       </nav>
     </section>
-    <h1 id title="">Conceptos básicos de HTML</h1>
+
+    <section>
+    <h1 id="title">Conceptos básicos de HTML</h1>
     <p>El Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para estructurar y desplegar una página web y sus contenidos. Por ejemplo, sus contenidos podrían ser párrafos, una lista con viñetas, o imágenes y tablas de datos. Como lo sugiere el título, este artículo te dará una comprensión básica de HTML y cúal es su función.
 
         Entonces, ¿qué es HTML en realidad? HTML no es un lenguaje de programación; es un lenguaje de marcado que define la estructura de tu contenido. HTML consiste en una serie de elementos que usarás para encerrar diferentes partes del contenido para que se vean o comporten de una determinada manera. Las etiquetas de encierre pueden hacer de una palabra o una imagen un hipervínculo a otro sitio, se pueden cambiar palabras a cursiva, agrandar o achicar la letra, etc. Por ejemplo, toma la siguiente línea de contenido:
@@ -35,11 +37,11 @@
             <li>El elemento</li>
         </ul>
     </p>
-    <h1 id title="">Elementos básicos</h1>
+    <h1 id="title-css">CSS</h1>
     <p>Las Hojas de estilo en cascada (del ingles Cascading Stylesheets CSS) es la siguiente tecnología que aprenderemos después de HTML. Mientras que HTML se utiliza para definir la estructura y la semántica del contenido, CSS se usa para darle estilo y posicionarlo visualmente. CSS se puede usar, por ejemplo, para cambiar la fuente, el color, el tamaño y el espaciado del contenido, para formar multiples columnas, añadir animaciones y otros elementos decorativos.
     </p>
 
-    <h2>Itinerario de aprendizaje</h2>
+    <h3>Itinerario de aprendizaje</h3>
     <p>Antes de empezar con CSS deberemos conocer los fundamentos de HTML. Podemos trabajar este contenido en introducción a HTML para posteriormente aprender:
 
         <ul>
@@ -54,19 +56,21 @@
         
         Se recomienda trabajar el módulo Primeros pasos en la Web antes de entrar a este tema, aunque no es completamente necesario; gran parte de lo tratado en el artículo de CSS básico también se trata en el módulo de introducción a CSS, aunque con mucho más detalle.</p>
 
-  <h1>JavaScript</h1>
+  <h1 id="title-java">JavaScript</h1>
   <p>
     JavaScript es un lenguaje de programación que te permite implementar cosas complejas en páginas web. Cada vez que una página web hace algo más que sentarse ahí y mostrar información estática para que la veas — mostrando actualizaciones de contenido oportunas, mapas interactivos, gráficos animados 2D/3D, desplazando máquinas reproductoras de video, o más, puedes apostar que probablemente JavaScript esté involucrado .
   </p>
 
-  <h2>Prerrequisitos</h2>
+  <h3>Prerrequisitos</h3>
+  
   <p>Se puede decir que JavaScript es más difícil de aprender que tecnologías relacionadas como HTML y CSS. Antes de intentar aprender JavaScript, se recomienda encarecidamente que te familiarices con al menos estas dos tecnologías primero, y quizás también con otras. Comienza trabajando con los siguientes módulos:</p>
   <ul>
     <li>Comenzando con la Web</li>
     <li>Introducción a HTML (en-US)</li>
     <li>Introducción a CSS</li>
 </ul>
-<h1>Back-end</h1>
+<h1 id="title-back">Back-end</h1>
+
 <p>Una definición de qué es el backend 
     El backend es un término que utilizamos para referirnos a la arquitectura interna de un sitio web. Esta área lógica, que no es visible a los ojos del usuario y no incluye elementos de tipo gráfico, permite que todos los elementos de una web desarrollen la función correcta.  
     
@@ -83,5 +87,6 @@
             <li>PHP: utilizado muy a menudo en los principales gestores, como puede ser WordPress.   </li>
             <li>Node.js: en la actualidad, uno d elos más utilizados. Es así porque funciona con un lenguaje similar al del lado del cliente, Javascript.   </li>
         </ul>
+    </section>
 </body>
 </html>
