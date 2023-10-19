@@ -40,7 +40,8 @@ a {
 }
 
 body::-webkit-scrollbar {
-    width: 9px;
+    width: 15px;
+    height: 5px;
     background-color: rgb(4, 23, 46);
-    border-radius: 7px;
+    border-radius: 10px;
 }
